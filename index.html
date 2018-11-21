@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>一牛财经</title>
+    <link rel="stylesheet" href="main.css">
+    <script>window.$ = window.jQuery = require('jquery');</script>
+  </head>
+  <body>
+    <div class="titleBar" style="-webkit-app-region:drag">
+      <img src="assets/images/mainlogo.png" class="logo">
+      <ul class="menu">
+        <li class="msg" >
+          <a id="msgBtn" href="#">
+            <img src="" alt="">
+          </a>
+        </li>
+        <li class="news">
+          <a id="newsBtn" href="http://pc3.yn.com/news" target="otherFrame" >
+            <img src="" alt=""></a>
+        </li>
+        <li class="dianping">
+          <a id="dianpingBtn" href="http://pc3.yn.com/dianping" target="otherFrame">
+            <img src="" alt="">
+          </a>
+        </li>
+        <li class="quotes">
+          <a id="quotesBtn" href="http://pc3.yn.com/quotes" target="otherFrame">
+            <img src="" alt=""></a>
+        </li>
+        <li class="rili">
+          <a id="riliBtn" href="http://pc3.yn.com/rili" target="otherFrame">
+            <img src="" alt=""></a>
+        </li>
+        <li class="data">
+          <a id="dataBtn" href="http://pc3.yn.com/data" target="otherFrame">
+            <img src="" alt=""></a>
+        </li>
+        <li class="video">
+          <a id="videoBtn" href="http://pc3.yn.com/video" target="otherFrame">
+            <img src="" alt=""></a>
+        </li>
+        <!-- <li>
+          <p id="notice" >通知</a>
+        </li> -->
+      </ul>
+      <div class="btns">
+        <a id="minBtn" class="min">
+          <img src="assets/images/minButton.png" alt="">
+        </a>
+        <a id="maxBtn" class="max">
+            <img src="assets/images/maxButton.png" alt="">
+          </a>
+        <a id="closeBtn" class="close">
+          <img src="assets/images/closeButton.png" alt="">
+        </a>
+      </div>
+    </div>
+    <iframe id="mainFrame" name="mainFrame" src="http://pc3.yn.com/" width='100%' frameborder='0' scrolling="no" style= "display:block "> </iframe>
+    <iframe id="otherFrame" name="otherFrame" src="http://pc3.yn.com/news" width='100%' frameborder='0' scrolling="no" style= "display:none "> </iframe>
+    <script>
+      // You can also require other files to run in this process
+      require('./renderer.js')
+    </script>
+  </body>
+</html>

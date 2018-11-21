@@ -1,0 +1,20 @@
+{
+  "name": "yn",
+  "version": "1.0.0",
+  "description": "Yiniu PC",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "yn"
+  ],
+  "author": "cat",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.9"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

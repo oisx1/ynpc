@@ -1,0 +1,30 @@
+*{margin:0;padding:0;}
+a{cursor:default;text-decoration:none;display:inline-block;}
+.logo{display: block; float:left; margin-top:20px; margin-left: 10px}
+li{ background-repeat: no-repeat;}
+
+.titleBar {width: 100%; height:92px; background-color: rgb(37, 135, 226);}
+.menu {list-style-type:none;padding-top: 14px;overflow:hidden;}
+.menu li{float:left;width:80px;height:80px;-webkit-app-region: no-drag;}
+
+.msg { background-image:url('assets/images/1.png');}
+.news { background-image:url('assets/images/2.png');}
+.dianping { background-image:url('assets/images/3.png');}
+.quotes { background-image:url('assets/images/4.png');}
+.rili { background-image:url('assets/images/5.png');}
+.data { background-image:url('assets/images/6.png');}
+.video { background-image:url('assets/images/7.png');}
+
+.msg:hover img{ content: url("assets/images/hover.png");}
+.news:hover img{ content: url("assets/images/hover.png");}
+.dianping:hover img{ content: url("assets/images/hover.png");}
+.quotes:hover img{ content: url("assets/images/hover.png");}
+.rili:hover img{ content: url("assets/images/hover.png");}
+.data:hover img{ content: url("assets/images/hover.png");}
+.video:hover img{ content: url("assets/images/hover.png");}
+
+.btns {list-style-type:none; position:absolute;top:0px;right:1px}
+.btns a{-webkit-app-region: no-drag;}
+.btns a:hover{background-image:url("assets/images/highlight.png");background-repeat: no-repeat}
+
+
